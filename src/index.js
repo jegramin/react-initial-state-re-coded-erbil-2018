@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import Address from './components/Address';
 
 ReactDOM.render(
-  <div><Address 
+  <div>
+  <ToggleButton />,
+  <Address 
     street="Santa Monica Blvd."
     city="Santa Monica"
   />,</div>,
